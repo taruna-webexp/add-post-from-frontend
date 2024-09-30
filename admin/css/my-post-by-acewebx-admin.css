@@ -1,0 +1,168 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ .my-post_setting-title-bar {
+	width: 100%;
+	background: #56ad75eb;
+	padding: 5px 0px;
+	margin-top: 10px;
+	box-sizing: border-box;
+}
+
+.my-post_setting-title-bar h1 {
+	font-size: 26px;
+	color: #fff;
+	position: relative;
+	left: 6px;
+}
+
+.right-side-content {
+	text-align: right;
+	justify-content: flex-end;
+	display: flex;
+	margin: 4px 22px;
+}
+
+.right-side-content a {
+	color: #fff;
+	background: #31824eeb;
+	bottom: 9px;
+	border-radius: 10px;
+	right: -36%;
+	padding: 12px;
+	justify-content: center;
+	display: flex;
+	width: 215px;
+	line-height: inherit;
+	text-decoration: none;
+}
+
+.right-side-content a:hover {
+	text-decoration: none;
+}
+
+.left-side-content {
+	display: flex;
+	margin: 7px 0;
+}
+
+.right-side-content a .fab.fa-paypal.fa-2x {
+	padding: 0 8px;
+}
+
+.user_post.left-side-content img {
+	width: 10%;
+	margin-right: 10px;
+}
+
+/* copy option css */
+.shortcode-copy-btn {
+    background-color: #0073aa;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.shortcode-copy-btn:hover {
+    background-color: #005c82;
+}
+
+.shortcode-copy-btn.copied {
+    background-color: #28a745; /* Green color for success */
+}
+
+.shortcode-copy-btn.copied::after {
+    content: '\2714'; /* Unicode checkmark symbol */
+    margin-left: 5px;
+}
+
+/* Setting css */
+.form-table {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+p.submit{
+	padding: 10px;
+}
+.form-table th,
+.form-table td {
+    padding: 10px;
+    vertical-align: top;
+}
+
+.form-table th {
+    width: 30%;
+    min-width: 120px;
+    text-align: left;
+}
+
+.form-table td {
+    width: 70%;
+    text-align: left;
+}
+td.display {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 34px;
+}
+/* Tab header */
+
+
+.user-post-tab-container {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    margin: 11px 0;
+}
+
+.user-post-tab {
+    background-color: #f1f1f1;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.user-post-tab:hover {
+    background-color: #ddd;
+}
+
+.user-post-tab.active {
+    background-color: #ccc;
+    display: block;
+}
+
+.user-post-tab-content {
+    display: none;
+    padding: 20px 0;
+}
+
+
+/* admin layout setting css */
+
+.layout-image {
+	width: 100%;
+    object-fit: cover;
+}
+.layout-image-outer {
+    display: flex;
+    justify-content: center;
+    align-items: normal;
+    height: 200px; /* Set the height you want for the images */
+    overflow: hidden;
+	margin: 11px;
+}
+.layout-image-outer.active {
+	border: 7px solid aqua;
+  }
+  .post_display_category {
+    font-weight: 600;
+    color: #000;
+  }
