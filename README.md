@@ -23,11 +23,3 @@ This plugin provides a convenient way for users to add posts from the front-end.
 
 ### How do I configure the plugin?
 After activating the plugin, go to the default post settings page. Use the provided shortcode to add posts from the front-end or display all posts. The admin can customize the number of posts displayed and filter them by category.
-
-## Demo
-https://wordpress.web-xperts.xyz/my-posts/
-
-## Screenshots
-
-![Settings Screen](https://wordpress.web-xperts.xyz/wp-content/uploads/2024/09/Screenshot-from-2024-09-11-03-38-07-1024x521.png)
-![Add Post Form](https://wordpress.web-xperts.xyz/wp-content/uploads/2024/09/Screenshot-from-2024-09-11-03-40-59-1024x521.png)
